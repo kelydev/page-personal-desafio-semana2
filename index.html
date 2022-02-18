@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>KSV</title>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
 </head>
+
 <body class="body">
     <main class="main">
         <header class="header">
@@ -20,7 +23,7 @@
                         <a href="#Inicio" class="header__nav--link">Inicio</a>
                     </li>
                     <li class="header__nav--item">
-                        <a href="#Sobremi" class="header__nav--link">Sobre mí</a>
+                        <a href="#about" class="header__nav--link">Sobre mí</a>
                     </li>
                     <li class="header__nav--item">
                         <a href="#skills" class="header__nav--link">Skills</a>
@@ -31,76 +34,98 @@
                 </ul>
             </nav>
         </header>
-        <div>
-            <h1>Kely Segundo</h1>
-        </div>
-        <div>
-            <h2>Front End Developer</h2>
-            <button>Revisa mi CV</button>
+        <div class="home">
+            <h1 class="home__titulo">Kely Segundo</h1>
+            <h2 class="home__subtitulo">Front End Developer</h2>
+            <button class="home__button">Revisa mi CV</button>
         </div>
     </main>
-
-    <section id="Sobremi">
-        <h2>Acerca de mi </h2>
-        <div>
-            <figure>
-                <img src="./img/kely.jpeg" alt="foto kely" width="100px">
-            </figure>
-            <h3>Kely Segundo</h3>
-            <p>Front end Developer</p>
-            <ul>
-                <li>
-                    <a href="">GitHub</a>
-                </li>
-                <li>
-                    <a href="">Correo</a>
-                </li>
-                <li>
-                    <a href="">Linkedin</a>
-                </li>
-            </ul>
-        <div>
-        <div>
-            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita illo, eum recusandae modi veniam iste maiores velit voluptatum est, aspernatur et iusto maxime quo beatae culpa sequi repellendus. Itaque, corrupti.
-            Architecto sequi totam porro recusandae at esse fugiat, beatae voluptatibus repellat? Adipisci, libero eligendi porro similique error quae suscipit sequi a quis exercitationem reiciendis distinctio nemo aut fugiat rerum nihil!
-            Sequi neque consequuntur mollitia vitae exercitationem, perferendis inventore impedit, et esse sed accusamus, maiores voluptate voluptatem fugit nostrum voluptatum. Pariatur reiciendis molestiae corporis in quaerat ratione, incidunt laboriosam ea quibusdam.
-            Mollitia distinctio voluptatibus doloremque aliquam aut voluptate modi placeat accusamus, laudantium, fugit ex autem magni nemo, rerum quidem vitae ducimus! Voluptatum ratione eaque impedit accusantium repellat nulla maiores, sit quidem.
-            </p>
-            <h4>Herramientas</h4>
+    <!--about-->
+    <section id="about" class="about grid-container">
+        <h2 class="about__item1">Acerca de mi</h2>
+        <div class="about__item2">
             <div>
-                <div>
-                    <p>HTML/CSS 90%</p>
-                    <div>
-                        <div></div>
-                    </div>  
+                <figure class="about__figure">
+                    <img src="./img/fotoo.jpg" alt="foto kely" class="about__foto">
+                </figure>
+            </div>
+            <div>
+                <h3 class="about__subtitulo h-3">Kely Segundo</h3>
+                <p class="about__subtitulo p-3">Front end Developer</p>
+                <ul class="about__list">
+                    <li class="about__item">
+                        <a href="#" class="about__link">
+                            <img src="https://cdn2.iconfinder.com/data/icons/social-icons-circular-color/512/github-512.png"
+                                alt="icono-gitHub" class="about__icono">
+                            https://github.com/kelydev
+                        </a>
+                    </li>
+                    <li class="about__item">
+                        <a href="#" class="about__link">
+                            <img src="https://cdn1.iconfinder.com/data/icons/contact-us-101/32/36_At_sign-512.png"
+                                alt="icono-gmail" class="about__icono">
+                            kelysv.29@gmail.com
+                        </a>
+                    </li>
+                    <li class="about__item">
+                        <a href="" class="about__link">
+                            <img src="https://cdn4.iconfinder.com/data/icons/social-icons-16/512/LinkedIn_alt-512.png"
+                                alt="icono-linkedin" class="about__icono">
+                            https://www.linkedin.com/in/kely-470179/
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="about__item3">
+            <p class="about__contenedor--descripcion">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Architecto neque totam nesciunt unde vitae dolor qui, maxime, corrupti libero eaque quasi. 
+                Quam minima ratione magni nesciunt. Beatae culpa enim dolorem? Saepe, earum repellat quae sint repellendus, 
+                blanditiis doloremque aliquam voluptate magni odit iure porro, modi ad ex at minus! Corporis,
+                quod excepturi impedit omnis alias animi similique accusantium numquam quidem. Unde dicta exercitationem minima, 
+                at delectus voluptatum mollitia placeat iure vitae odit accusamus dolorem neque, id, quibusdam porro eligendi ad. 
+            </p>
+        </div>
+        <div class="about__item4">
+            <h4 class="about__contenedor--subtitulo">Herramientas</h4>
+            <div class="skilss">
+                <div class="skills__items">
+                    <p class="skilss__item--item">HTML/CSS 90%</p>
+
+                    <div class="barra">
+                        <div class="barra__relleno"></div>
+                    </div>
                 </div>
-                <div>
-                    <p>JavaScript 90%</p>
-                    <div>
-                        <div></div>
-                    </div>  
+                <div class="skills__items">
+                    <p class="skilss__item--item">JavaScript 90%</p>
+                    <div class="barra">
+                        <div class="barra__relleno"></div>
+                    </div>
                 </div>
-                <div>
-                    <p>Node.js 90%</p>
-                    <div>
-                        <div></div>
-                    </div>  
+                <div class="skills__items">
+                    <p class="skilss__item--item">Node.js 90%</p>
+                    <div class="barra">
+                        <div class="barra__relleno"></div>
+                    </div>
                 </div>
-                <div>
-                    <p>React 90%</p>
-                    <div>
-                        <div></div>
-                    </div>  
+                <div class="skills__items">
+                    <p class="skilss__item--item">React 90%</p>
+                    <div class="barra">
+                        <div class="barra__relleno"></div>
+                    </div>
                 </div>
-                <div>
-                    <p>UX Desing 90%</p>
-                    <div>
-                        <div></div>
-                    </div>  
+                <div class="skills__items">
+                    <p class="skilss__item--item">UX Desing 90%</p>
+                    <div class="barra">
+                        <div class="barra__relleno"></div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
+
+    <span></span>
     <section>
         <h2>Educacion</h2>
         <div>
@@ -197,4 +222,5 @@
         <p>todos los derechos reservados</p>
     </footer>
 </body>
+
 </html>
