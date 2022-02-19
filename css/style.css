@@ -39,10 +39,10 @@
 
 .main {
     background-attachment: fixed;
-    background-image: linear-gradient( 30deg, #2D4D5F,rgba(0, 0, 0, 0.192),rgba(0, 0, 0, 0.705) 100%),url(fondo1.jpg);
+    background-image: linear-gradient(30deg, #2D4D5F, rgba(0, 0, 0, 0.192), rgba(0, 0, 0, 0.705) 100%), url(fondo1.jpg);
     background-size: cover;
     padding-bottom: 80px;
-    background-blend-mode: multiply,multiply;
+    background-blend-mode: multiply, multiply;
 }
 
 .home {
@@ -66,7 +66,7 @@
 }
 
 .home__subtitulo {
-    color:#e0eff2;
+    color: #e0eff2;
     text-shadow: 0 0 3px #e0eff2, 0 0 5px #000000;
 }
 
@@ -83,7 +83,7 @@
 .home__button:hover {
     background-color: #fff;
     color: #F8414D;
-    animation: swing; 
+    animation: swing;
     animation-duration: 2s;
 }
 
@@ -124,13 +124,6 @@
     gap: 1px;
     padding: 0px 35px;
 }
-
-/*
-span {
-    margin: 0 auto 35px;
-    border-bottom: 8px solid #F8414D;
-    width: 140px;
-}*/
 
 .about__figure {
     margin: 0 auto;
@@ -212,9 +205,7 @@ span {
 }
 
 /*-------------project--------------*/
-.project {
-   
-}
+.project {}
 
 .project__title {
     text-align: center;
@@ -232,7 +223,7 @@ span {
 }
 
 .project__grid--item1 {
-    grid-area: item1; 
+    grid-area: item1;
 }
 
 .project__grid--item2 {
@@ -277,8 +268,7 @@ span {
 }
 
 .card:hover {
-    animation: pulse; 
-    animation-duration: 2s
+    animation: pulse;
 }
 
 /*footer*/
@@ -298,13 +288,13 @@ span {
 .footer__item {
     list-style: none;
     padding: 0px 4px;
-   
+
 }
 
 .footer__link {
- text-decoration: none;
- color: #fff;
- 
+    text-decoration: none;
+    color: #fff;
+
 }
 
 .footer__img {
@@ -380,7 +370,7 @@ span {
         gap: 1px;
         padding: 0px 85px 100px;
     }
-    
+
 }
 
 @media (min-width: 940px) {
@@ -461,6 +451,7 @@ span {
     .about__contenedor--subTitle {
         text-align: left;
     }
+
     /*project*/
     .project__grid {
         display: grid;
