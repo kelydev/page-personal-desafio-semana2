@@ -205,7 +205,9 @@ span {
 }
 
 /*-------------project--------------*/
-.project {}
+.project {
+   
+}
 
 .project__title {
     text-align: center;
@@ -251,7 +253,7 @@ span {
         'item4'
         'item5';
     gap: 1px;
-    padding: 0px 35px;
+    padding: 0px 35px 80px;
 }
 
 .project__img {
@@ -265,12 +267,52 @@ span {
     text-align: center;
     margin: 0.75rem;
     min-height: 20rem;
-    
-    /*align-items: center;
-    -webkit-box-align: center;*/
 }
 
+/*footer*/
 
+.footer {
+    background-color: #2D4D5F;
+    text-align: center;
+    padding: 30px;
+}
+
+.footer__list {
+    display: flex;
+    justify-content: center;
+    padding: 15px 0px 10px 0px;
+}
+
+.footer__item {
+    list-style: none;
+    padding: 0px 4px;
+   
+}
+
+.footer__link {
+ text-decoration: none;
+ color: #fff;
+ 
+}
+
+.footer__img {
+    width: 50px;
+    background-color: #fff;
+    border: 1px solid #2D4D5F;
+    border-radius: 5px;
+}
+
+.footer__img:hover {
+    background-color: #F8414D;
+    border: 1px solid #F8414D;
+}
+
+.footer__parrafo {
+    margin-bottom: 0px;
+    color: #fff;
+    font-size: 14px;
+    font: 400;
+}
 
 @media (min-width: 680px) and (max-width: 940px) {
 
@@ -324,7 +366,7 @@ span {
             'item3 item3 item1 item1'
             'item4 item4 item5 item5';
         gap: 1px;
-        padding: 0px 85px;
+        padding: 0px 85px 100px;
     }
     
 }
@@ -414,6 +456,6 @@ span {
             'item3 item3 item2'
             'item4 item5 item1';
         gap: 1px;
-        padding: 0px 150px;
+        padding: 0px 150px 100px;
     }
 }
