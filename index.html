@@ -1,12 +1,226 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>KSV</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
-<body>
-    
+
+<body class="body">
+    <main class="main">
+        <header class="header">
+            <nav class="header__nav">
+                <a href="#perfil" class="header__logo--container">
+                    <img src="./img/logo.png" alt="" class="header__logo">
+                </a>
+                <ul class="header__nav--list">
+                    <li class="header__nav--item">
+                        <a href="#Inicio" class="header__nav--link">Inicio</a>
+                    </li>
+                    <li class="header__nav--item">
+                        <a href="#about" class="header__nav--link">Sobre mí</a>
+                    </li>
+                    <li class="header__nav--item">
+                        <a href="#skills" class="header__nav--link">Skills</a>
+                    </li>
+                    <li class="header__nav--item">
+                        <a href="#proyectos" class="header__nav--link">Proyectos</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <div class="home">
+            <h1 class="home__titulo">Kely Segundo</h1>
+            <h2 class="home__subtitulo">Front End Developer</h2>
+            <button class="home__button">Revisa mi CV</button>
+        </div>
+    </main>
+    <!--about-->
+    <section id="about" class="about grid-container">
+        <h2 class="about__item1">Acerca de mi</h2>
+        <div class="about__item2">
+            <div>
+                <figure class="about__figure">
+                    <img src="./img/fotoo.jpg" alt="foto kely" class="about__foto">
+                </figure>
+            </div>
+            <div>
+                <h3 class="about__subtitulo h-3">Kely Segundo</h3>
+                <p class="about__subtitulo p-3">Front end Developer</p>
+                <ul class="about__list">
+                    <li class="about__item">
+                        <a href="#" class="about__link">
+                            <img src="https://cdn2.iconfinder.com/data/icons/social-icons-circular-color/512/github-512.png"
+                                alt="icono-gitHub" class="about__icono">
+                            https://github.com/kelydev
+                        </a>
+                    </li>
+                    <li class="about__item">
+                        <a href="#" class="about__link">
+                            <img src="https://cdn1.iconfinder.com/data/icons/contact-us-101/32/36_At_sign-512.png"
+                                alt="icono-gmail" class="about__icono">
+                            kelysv.29@gmail.com
+                        </a>
+                    </li>
+                    <li class="about__item">
+                        <a href="" class="about__link">
+                            <img src="https://cdn4.iconfinder.com/data/icons/social-icons-16/512/LinkedIn_alt-512.png"
+                                alt="icono-linkedin" class="about__icono">
+                            https://www.linkedin.com/in/kely-470179/
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="about__item3">
+            <p class="about__contenedor--descripcion">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Architecto neque totam nesciunt unde vitae dolor qui, maxime, corrupti libero eaque quasi. 
+                Quam minima ratione magni nesciunt. Beatae culpa enim dolorem? Saepe, earum repellat quae sint repellendus, 
+                blanditiis doloremque aliquam voluptate magni odit iure porro, modi ad ex at minus! Corporis,
+                quod excepturi impedit omnis alias animi similique accusantium numquam quidem. Unde dicta exercitationem minima, 
+                at delectus voluptatum mollitia placeat iure vitae odit accusamus dolorem neque, id, quibusdam porro eligendi ad. 
+            </p>
+        </div>
+        <div class="about__item4">
+            <h4 class="about__contenedor--subtitulo">Herramientas</h4>
+            <div class="skilss">
+                <div class="skills__items">
+                    <p class="skilss__item--item">HTML/CSS 90%</p>
+
+                    <div class="barra">
+                        <div class="barra__relleno"></div>
+                    </div>
+                </div>
+                <div class="skills__items">
+                    <p class="skilss__item--item">JavaScript 90%</p>
+                    <div class="barra">
+                        <div class="barra__relleno"></div>
+                    </div>
+                </div>
+                <div class="skills__items">
+                    <p class="skilss__item--item">Node.js 90%</p>
+                    <div class="barra">
+                        <div class="barra__relleno"></div>
+                    </div>
+                </div>
+                <div class="skills__items">
+                    <p class="skilss__item--item">React 90%</p>
+                    <div class="barra">
+                        <div class="barra__relleno"></div>
+                    </div>
+                </div>
+                <div class="skills__items">
+                    <p class="skilss__item--item">UX Desing 90%</p>
+                    <div class="barra">
+                        <div class="barra__relleno"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <span></span>
+    <section>
+        <h2>Educacion</h2>
+        <div>
+            <article>
+                <div>
+                    <img src="" alt="">
+                </div>
+                <div>
+                    <p>Unamba</p>
+                    <span>2014-2019</span>
+                    <strong>Sistemas</strong>
+                </div>
+            </article>
+            <article>
+                <div>
+                    <img src="" alt="">
+                </div>
+                <div>
+                    <p>Peru Programa - Codigo</p>
+                    <span>-2022</span>
+                    <strong>Fullstack Developer</strong>
+                </div>
+            </article>
+        </div>
+    </section>
+    <section id="proyectos">
+        <h2>Proyectos</h2>
+        <article>
+            <img src="" alt="">
+            <a href=""></a>
+            <p></p>
+            <p>
+                <span></span>
+                <span></span>
+            </p>
+        </article>
+        <article>
+            <img src="" alt="">
+            <a href=""></a>
+            <p></p>
+            <p>
+                <span></span>
+                <span></span>
+            </p>
+        </article>
+        <article>
+            <img src="" alt="">
+            <a href=""></a>
+            <p></p>
+            <p>
+                <span></span>
+                <span></span>
+            </p>
+        </article>
+        <article>
+            <img src="" alt="">
+            <a href=""></a>
+            <p></p>
+            <p>
+                <span></span>
+                <span></span>
+            </p>
+        </article>
+    </section>
+    <section>
+        <h2>Contactame</h2>
+        <form action="">
+            <div>
+                <input type="text">
+                <!--<input type="text">
+                <input type="text">-->
+            </div>
+            <div>
+                <input type="text">
+            </div>
+            <button>ENVIAR MENSAJE</button>
+        </form>
+    </section>
+    <footer>
+        <div>
+            <p>Sigueme</p>
+            <ul>
+                <li>
+                    <a href=""></a>
+                </li>
+                <li>
+                    <a href=""></a>
+                </li>
+                <li>
+                    <a href=""></a>
+                </li>
+            </ul>
+        </div>
+        <p>todos los derechos reservados</p>
+    </footer>
 </body>
+
 </html>
